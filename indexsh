@@ -1,6 +1,9 @@
 wget https://github.com/Triducdinh/files-smu/releases/download/main/T10.zip
 unzip T10.zip
+echo install qemu
 sudo apt install qemu-system-x86 -y
 wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.zip
-unzip ngrok-v3-stable-linux-arm.zip
-echo coming soon
+unzip ngrok-v3-stable-linux-arm.zip > /dev/null 2>&1
+read -p "Ctrl + V Authtoken: " CRP
+nohup ./ngrok tcp 5906 &>/dev/null &
+qemu-system-x86_64 -hda a.vhd -m 16G -smp cores=12 -device rtl8139,rng=rng0 -vga vmware -nographic -accel tcg -vnc :6 &>/dev/null &
