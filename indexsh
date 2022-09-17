@@ -9,3 +9,4 @@ nohup ./ngrok tcp 5906 &>/dev/null &
 qemu-system-x86_64 -hda a.vhd -m 16G -smp cores=12 -device rtl8139,rng=rng0 -vga vmware -nographic -accel tcg -vnc :6 &>/dev/null &
 echo vnc ip
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+sleep 432000
