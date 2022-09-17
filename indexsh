@@ -1,0 +1,6 @@
+wget https://github.com/Triducdinh/files-smu/releases/download/main/T10.zip
+unzip T10.zip
+sudo apt install qemu-system-x86 -y
+wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.zip
+unzip ngrok-v3-stable-linux-arm.zip
+echo coming soon
