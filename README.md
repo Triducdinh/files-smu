@@ -7,10 +7,10 @@ wget https://raw.githubusercontent.com/Triducdinh/files-smu/files-storage/indexs
 * file lỗi
 
 # 2 VS-server on termux
-* 1 update pkg -y && pkg upgrade -y
+* 1 update pkg
 
 ```console
-pkg update -y && pkg upgrade
+pkg update -y && pkg upgrade -y
 ```
 
 * 2 install.
