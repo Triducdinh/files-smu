@@ -4,7 +4,6 @@ Youtube an bùi : https://youtube.com/c/AnB%C3%B9i2004
 ```console
 Coming Soon
 ```
-* file lỗi
 
 # 2 VS-server on termux
 * 1 update pkg
