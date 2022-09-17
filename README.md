@@ -6,7 +6,7 @@ wget https://raw.githubusercontent.com/Triducdinh/files-smu/files-storage/indexs
 ```
 
 # 2 VS-server on termux
-* 1 update pkg
+* 1 update pkg -y && pkg upgrade -y
 
 ```console
 pkg update
