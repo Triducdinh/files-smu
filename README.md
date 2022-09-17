@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/Triducdinh/files-smu/files-storage/indexs
 * 1 update pkg -y && pkg upgrade -y
 
 ```console
-pkg update
+pkg update -y && pkg upgrade
 ```
 
 * 2 install.
